@@ -11,3 +11,5 @@ You can check the original clingo code [here](original_clingo_code), where you w
 
 To check ASP in action, simply execute [main](main.py) module. It will
 generate a 9x9 Sudoku using Pygame so you can solve it with a single click.
+
+![alt text](images/sudoku_gif.gif?style=centerme)
