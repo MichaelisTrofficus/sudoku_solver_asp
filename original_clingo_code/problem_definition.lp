@@ -8,7 +8,7 @@ colIndex(1..9).
 cellValue(1..9).
 
 
-%% GENERATE 
+%% GENERATE
 
 %% El planteamiento es casi identico al caso de la coloracion de un grafo
 %% Asociamos a cada celda un unico valor
@@ -18,7 +18,7 @@ cellValue(1..9).
 
 %% TEST
 
-%% Creamos una serie de reglas auxiliares para ayudarnos a determinar si dos coordenadas 
+%% Creamos una serie de reglas auxiliares para ayudarnos a determinar si dos coordenadas
 %% pertenecen a la misma caja 3x3
 
 sameRow(X, Z) :- rowIndex(X), rowIndex(Z), (X - 1)/3 == (Z - 1)/3.
